@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/parentTvTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="父ListviewTop"/>
+    <com.dz.testlistview.ZListview
+        android:id="@+id/childListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.dz.testlistview.ZListview>
+    <TextView
+        android:id="@+id/parentTvBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="父ListviewBottom"/>
+</LinearLayout>
